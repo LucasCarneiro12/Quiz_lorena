@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 { color: #d81b60; margin-bottom: 10px; }
+
+p { color: #880e4f; margin-bottom: 20px; font-size: 0.9rem; }
+
+.input-group { margin-bottom: 15px; }
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f48fb1;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus { border-color: #d81b60; box-shadow: 0 0 5px rgba(216, 27, 96, 0.3); }
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover { background-color: #ad1457; }
+
+.error-msg { color: #ff5252; margin-top: 10px; font-weight: bold; }
+
+.opcoes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-opcao {
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    color: #ad1457;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-opcao:hover {
+    background-color: #f8bbd0;
+    transform: scale(1.02);
+}
+
+.btn-opcao.correto {
+    background-color: #c8e6c9;
+    border-color: #4caf50;
+    color: #2e7d32;
+}
+
+.btn-opcao.errado {
+    background-color: #ffcdd2;
+    border-color: #ef5350;
+    color: #c62828;
+}
+
+.typing-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #880e4f;
+    text-align: left;
+    min-height: 100px;
+}
+
+.grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-fotos img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #f48fb1;
+    transition: transform 0.3s;
+}
+
+.grid-fotos img:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.mural-container {
+    max-width: 600px; /* Mural um pouco mais largo */
+}

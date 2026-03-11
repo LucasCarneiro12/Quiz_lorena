@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Surpresa para Você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sessao-carta" class="login-container">
+        <div id="texto-carta" class="typing-text"></div>
+        <button id="btn-proximo" style="display: none; margin-top: 20px;" onclick="mostrarMural()">Ver nosso mural ❤️</button>
+    </div>
+
+    <div id="sessao-mural" class="login-container mural-container" style="display: none;">
+        <h2>Nossos Momentos</h2>
+        
+        <audio id="musica" loop>
+            <source src="PeladosEmSantos.m4a" type="audio/mp4">
+        </audio>
+
+        <div class="grid-fotos">
+            <img src="foto1.jpg" alt="Nós">
+            <img src="foto2.jpg" alt="Nós">
+            <img src="foto3.jpg" alt="Nós">
+            <img src="foto4.jpg" alt="Nós">
+        </div>
+        <p>Te amo hoje e sempre!</p>
+    </div>
+
+    <script src="surpresa.js"></script>
+</body>
+</html>
