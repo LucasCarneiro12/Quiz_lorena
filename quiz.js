@@ -1,18 +1,27 @@
 const perguntas = [
     {
-        pergunta: "Em que cidade eu moro atualmente?",
-        opcoes: ["Trairi", "Fortaleza", "Caucaia", "Sobral"],
-        correta: 1
+        pergunta: "No dia 9 de feveriro de 2023 eu respondi pela primeira vez um story seu para começar a puxar  assunto. Qual era o conteúdo dessa mensagem?",
+        opcoes: ["Eita como treina",
+            "Pq falou comigo na academia?",
+            "Não foi para a academia hj",
+            "Está indo treinar com quem agora?"],
+        correta: 2
     },
     {
-        pergunta: "Qual dessas bandas eu mais gosto de ouvir?",
-        opcoes: ["Radiohead", "Calcinha Preta", "Oasis", "Todas as anteriores!"],
+        pergunta: "Em que dia foi o nosso primeiro beijo?(sem mentir)",
+        opcoes: ["25/02/2023",
+             "12/02/2023",
+              "12/06/2023",
+               "24/02/2023"],
         correta: 3
     },
     {
-        pergunta: "Qual o nome da nossa primeira 'filha' de quatro patas?",
-        opcoes: ["Mel", "Luna", "Amora", "Bela"],
-        correta: 0 // Ajuste conforme a realidade de vocês!
+        pergunta: "Qual é o nome da nossa música?",
+        opcoes: ["Pelados em Santos",
+             "Oi",
+              "Imprevisto",
+               "Final de estrada"],
+        correta: 0 
     }
 ];
 
